@@ -1,3 +1,6 @@
 # Generating Image Descriptions: Aid for the Visually Impaired
 
-Automating image descriptions is a challenging and a classic artificial intelligence problem. The idea is to develop an architecture, by leveraging existing models, that generates image descriptions using its predicted image features and objects. The architecture would obtain image features using Convolution Neural Networks (InceptionV3). The image descriptions could then be generated using LSTM (Long short-term Memory) Networks. The overall architecture follows an encoder-decoder pipeline.
+Automating image descriptions is a classic and challenging artificial intelligence problem. The importance of Image captioning in real-world scenarios is in self-driving cars, Google Image Search and Security data annotation, among others. One such application notably being providing aid to the visually impaired.
+
+In this project, the idea is to develop an architecture that generates image descriptions using its predicted features. The model includes – (1) a Convolutional Neural Networks (InceptionV3) to extract image features and (2) an LSTM (Long short-term Memory) language model that decodes the joint embeddings of the image features and label captions. The overall architecture follows an encoder-decoder pipeline.
+
